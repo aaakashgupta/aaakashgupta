@@ -1,106 +1,69 @@
-<h1 align="center">Hi 👋, I'm Akash Gupta</h1>
+from pathlib import Path
+import pypandoc
 
-<h3 align="center">Full Stack MERN Developer | JavaScript Enthusiast | Open Source Learner</h3>
+md = r"""# Hi 👋, I'm Akash Gupta
+
+<h3 align="center">Full Stack MERN Developer | JavaScript Developer | Open Source Learner</h3>
 
 <p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&size=28&duration=3500&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Full+Stack+MERN+Developer;React+Developer;Node.js+Backend+Developer;JavaScript+Programmer;Always+Learning+New+Technologies" />
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&size=28&duration=3500&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Full+Stack+MERN+Developer;React+Developer;Node.js+Backend+Developer;Always+Learning" />
 </p>
 
 <p align="center">
-<img src="https://komarev.com/ghpvc/?username=aaakashgupta&label=Profile%20Views&color=0e75b6&style=for-the-badge"/>
-<img src="https://img.shields.io/github/followers/aaakashgupta?style=for-the-badge"/>
-<img src="https://img.shields.io/github/stars/aaakashgupta?style=for-the-badge"/>
+<a href="https://www.linkedin.com/in/akash-gupta-0b8725339/"><img src="https://skillicons.dev/icons?i=linkedin" /></a>
+<a href="mailto:aaakashgupta2023@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" /></a>
 </p>
 
 ---
 
-# 🚀 About Me
+## 🚀 About Me
 
-- 💻 Full Stack MERN Developer
-- 🌱 Currently learning Backend Development & DSA with JavaScript
+- 💻 MERN Stack Developer
+- 🌱 Learning Backend & DSA with JavaScript
 - 🎯 Looking for Software Development Internship
-- 🚀 Building Real World MERN Applications
-- ⚡ Love JavaScript
-- 📫 Email: **aaakashgupta2023@gmail.com**
+- 📫 aaakashgupta2023@gmail.com
 
----
+## 🛠 Tech Stack
 
-# 🛠 Tech Stack
-
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,js,react,nodejs,express,mongodb,firebase,git,github,vscode,postman,npm"/>
-
+<p>
+<img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,mongodb,git,github,vscode,postman" />
 </p>
 
----
+## 📊 GitHub Stats
 
-# 📊 GitHub Stats
+![Stats](https://github-readme-stats.vercel.app/api?username=aaakashgupta&show_icons=true&theme=tokyonight)
 
-<p align="center">
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=aaakashgupta&layout=compact&theme=tokyonight)
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=aaakashgupta&show_icons=true&theme=tokyonight&hide_border=true"/>
+## 🔥 Streak
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aaakashgupta&layout=compact&theme=tokyonight&hide_border=true"/>
+![Streak](https://streak-stats.demolab.com?user=aaakashgupta&theme=tokyonight)
 
-</p>
+## 📈 Activity Graph
 
----
+![Graph](https://github-readme-activity-graph.vercel.app/graph?username=aaakashgupta&theme=tokyo-night)
 
-# 🔥 GitHub Streak
+## 🏆 Trophies
 
-<p align="center">
+![Trophy](https://github-profile-trophy.vercel.app/?username=aaakashgupta&theme=tokyonight&no-frame=true)
 
-<img src="https://streak-stats.demolab.com?user=aaakashgupta&theme=tokyonight&hide_border=true"/>
+## 🚀 Featured Projects
 
-</p>
+- Portfolio Website
+- MERN Task Manager
+- E-Commerce Website
+- Weather App
 
----
+## 🐍 Snake Animation
 
-# 📈 Contribution Graph
+After creating the profile, create this workflow:
 
-<p align="center">
+`.github/workflows/snake.yml`
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=aaakashgupta&theme=tokyo-night&hide_border=true"/>
+and use Platane/snk GitHub Action.
 
-</p>
+"""
 
----
-
-# 🏆 GitHub Trophies
-
-<p align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=aaakashgupta&theme=tokyonight&no-frame=true&margin-w=15"/>
-
-</p>
-
----
-
-# 🌐 Connect With Me
-
-<p align="left">
-
-<a href="mailto:aaakashgupta2023@gmail.com">
-<img src="https://skillicons.dev/icons?i=gmail"/>
-</a>
-
-<!-- LinkedIn link yahan add karna -->
-<!-- Portfolio link yahan add karna -->
-
-</p>
-
----
-
-# 🚀 Featured Projects
-
-- 🛒 Ecommerce Website
-- 📋 Task Manager
-- 🏫 Student Management System
-- 📊 Survey Application
-
----
-
-# 💻 Quote
-
-> "Code. Learn. Build. Repeat."
+out="/mnt/data/README.md"
+pypandoc.convert_text(md,"md",format="md",outputfile=out,extra_args=["--standalone"])
+print(out)
