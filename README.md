@@ -1,7 +1,7 @@
 from pathlib import Path
 import pypandoc
 
-md = r"""# Hi 👋, I'm Akash Gupta
+ I'm Akash Gupta  👋
 
 <h3 align="center">Full Stack MERN Developer | JavaScript Developer | Open Source Learner</h3>
 
