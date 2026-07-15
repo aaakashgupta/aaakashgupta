@@ -1,69 +1,222 @@
-from pathlib import Path
-import pypandoc
+<h1 align="center">Hi 👋, I'm Akash Gupta</h1>
 
- I'm Akash Gupta  👋
-
-<h3 align="center">Full Stack MERN Developer | JavaScript Developer | Open Source Learner</h3>
+<h3 align="center">
+Full Stack MERN Developer | JavaScript Developer | Open Source Enthusiast
+</h3>
 
 <p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&size=28&duration=3500&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Full+Stack+MERN+Developer;React+Developer;Node.js+Backend+Developer;Always+Learning" />
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&size=28&duration=3500&pause=1000&color=00F7FF&center=true&vCenter=true&width=750&lines=Full+Stack+MERN+Developer;React+Developer;Node.js+Backend+Developer;JavaScript+Enthusiast;Building+Real+World+Projects;Always+Learning+New+Technologies"/>
 </p>
 
 <p align="center">
-<a href="https://www.linkedin.com/in/akash-gupta-0b8725339/"><img src="https://skillicons.dev/icons?i=linkedin" /></a>
-<a href="mailto:aaakashgupta2023@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" /></a>
+  <a href="https://www.linkedin.com/in/akash-gupta-0b8725339/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+
+  <a href="mailto:aaakashgupta2023@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+
+  <img src="https://komarev.com/ghpvc/?username=aaakashgupta&style=for-the-badge&color=0e75b6"/>
 </p>
 
 ---
 
-## 🚀 About Me
+# 💫 About Me
 
-- 💻 MERN Stack Developer
-- 🌱 Learning Backend & DSA with JavaScript
+- 💻 Full Stack MERN Developer
+- 🌱 Currently Learning Backend Development & DSA using JavaScript
+- 🚀 Passionate about building scalable web applications
 - 🎯 Looking for Software Development Internship
-- 📫 aaakashgupta2023@gmail.com
+- 📍 India
+- 📫 Email : aaakashgupta2023@gmail.com
 
-## 🛠 Tech Stack
+---
 
-<p>
-<img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,mongodb,git,github,vscode,postman" />
+# 🛠️ Tech Stack
+
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,mongodb,git,github,vscode,postman,npm"/>
+
 </p>
 
-## 📊 GitHub Stats
+---
 
-![Stats](https://github-readme-stats.vercel.app/api?username=aaakashgupta&show_icons=true&theme=tokyonight)
+# 📊 GitHub Stats
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=aaakashgupta&layout=compact&theme=tokyonight)
+<p align="center">
 
-## 🔥 Streak
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=aaakashgupta&show_icons=true&theme=tokyonight&hide_border=true"/>
 
-![Streak](https://streak-stats.demolab.com?user=aaakashgupta&theme=tokyonight)
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aaakashgupta&layout=compact&theme=tokyonight&hide_border=true"/>
 
-## 📈 Activity Graph
+</p>
 
-![Graph](https://github-readme-activity-graph.vercel.app/graph?username=aaakashgupta&theme=tokyo-night)
+---
 
-## 🏆 Trophies
+# 🔥 GitHub Streak
 
-![Trophy](https://github-profile-trophy.vercel.app/?username=aaakashgupta&theme=tokyonight&no-frame=true)
+<p align="center">
 
-## 🚀 Featured Projects
+<img src="https://streak-stats.demolab.com?user=aaakashgupta&theme=tokyonight&hide_border=true"/>
 
-- Portfolio Website
-- MERN Task Manager
-- E-Commerce Website
-- Weather App
+</p>
 
-## 🐍 Snake Animation
+---
 
-After creating the profile, create this workflow:
+# 📈 GitHub Activity Graph
 
-`.github/workflows/snake.yml`
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=aaakashgupta&theme=tokyo-night&hide_border=true&area=true"/>
+</p>
 
-and use Platane/snk GitHub Action.
+---
 
-"""
+# 🏆 GitHub Trophies
 
-out="/mnt/data/README.md"
-pypandoc.convert_text(md,"md",format="md",outputfile=out,extra_args=["--standalone"])
-print(out)
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=aaakashgupta&theme=tokyonight&no-frame=true&no-bg=true&margin-w=12&row=1"/>
+</p>
+
+---
+
+# 🚀 Featured Projects
+
+<table>
+<tr>
+<td width="50%">
+
+### 🛒 E-Commerce Website
+
+- MERN Stack
+- Authentication
+- Product Management
+- Responsive UI
+
+</td>
+
+<td width="50%">
+
+### 📋 Task Manager
+
+- MERN Stack
+- JWT Authentication
+- CRUD Operations
+- Responsive Design
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### 🌦 Weather App
+
+- JavaScript
+- Weather API
+- Live Forecast
+- Clean UI
+
+</td>
+
+<td width="50%">
+
+### 👨‍💻 Portfolio Website
+
+- React + Vite
+- Responsive
+- Modern UI
+- Fast Performance
+
+</td>
+</tr>
+</table>
+
+---
+
+# 📚 Currently Learning
+
+- ✅ Data Structures & Algorithms (JavaScript)
+- ✅ Node.js
+- ✅ Express.js
+- ✅ MongoDB
+- ✅ REST APIs
+- ✅ JWT Authentication
+
+---
+
+# 🎯 2026 Goals
+
+- 🚀 Master the MERN Stack
+- 💼 Get a Software Development Internship
+- 📦 Build 10+ Production-Level Projects
+- 🌍 Contribute to Open Source
+- 📈 Improve Problem Solving Skills
+
+---
+
+# 🌐 Connect With Me
+
+<p align="center">
+
+<a href="https://www.linkedin.com/in/akash-gupta-0b8725339/" target="_blank">
+<img src="https://skillicons.dev/icons?i=linkedin" height="50"/>
+</a>
+
+<a href="mailto:aaakashgupta2023@gmail.com">
+<img src="https://skillicons.dev/icons?i=gmail" height="50"/>
+</a>
+
+</p>
+
+---
+# 🐍 Contribution Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/aaakashgupta/aaakashgupta/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+</p>
+
+---
+
+# 📈 Coding Profiles
+
+<p align="center">
+
+<a href="https://github.com/aaakashgupta">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
+</a>
+
+<a href="https://www.linkedin.com/in/akash-gupta-0b8725339/">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin"/>
+</a>
+
+</p>
+
+---
+
+# 💬 Favorite Quote
+
+<div align="center">
+
+> **"First, solve the problem. Then, write the code."**
+>
+> — John Johnson
+
+</div>
+
+---
+
+# ❤️ Support
+
+If you like my work, consider giving a ⭐ to my repositories.
+
+---
+
+<div align="center">
+
+### Thanks for visiting my profile ❤️
+
+⭐ Don't forget to Follow me on GitHub ⭐
+
+</div>
